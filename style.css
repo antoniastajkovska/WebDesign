@@ -1,0 +1,213 @@
+.navigation ul{
+    border-bottom: white solid 2px;
+    position: relative;
+    top: 10px;
+    width: 1479px;
+    overflow: hidden;
+    text-align: center;
+    list-style: none;
+}
+
+.navigation li{
+    position: relative;
+    list-style: none;
+    height: 48px;
+    line-height: 18px;
+    display: inline-block;
+}
+
+.navigation a{
+    display: inline-block;
+    padding: 10px 50px;
+    line-height: 32px;
+    text-decoration: none;
+    text-align: left;
+    color: #efdddd;
+    font-size: 16px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+#Home a:hover{
+    color: black;
+}
+
+body{
+    position: relative;
+    padding: 0;
+    margin: 0;
+}
+
+#Home{
+    padding: 0;
+    margin: 0;
+    position: relative;
+    top: -20px;
+    background-image: url("../images/home.jpg");
+    background-repeat: no-repeat;
+    background-size: 1519px 850px;
+    width: 1519px;
+    height: 850px;
+}
+
+#description{
+    display: inline;
+    position: relative;
+    left: 600px;
+    top: 50px;
+    color: #efdddd;
+    word-spacing: 5px;
+    letter-spacing: 2px;
+}
+
+#description2{
+    display: inline;
+    position: relative;
+    left: 600px;
+    top: 200px;
+    color: #efdddd;
+    word-spacing: 5px;
+    letter-spacing: 2px;
+}
+
+#name{
+    position: relative;
+    left: 500px;
+    display: inline;
+    top: 200px;
+    color: #efdddd;
+    font-size: 50px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+p{
+    font-family: sans-serif;
+    font-size: 15px;
+    color: #efdddd;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+
+}
+
+#About\ Me{
+    position: relative;
+    top: -20px;
+    width: 1519px;
+    height: 550px;
+    background:rgb(25,30,46) url("../images/about_me.jpg") no-repeat ;
+    background-size: 900px 550px;
+}
+
+#About\ Me a{
+    text-decoration: none;
+    color: #efdddd;
+    position: relative;
+    float: right;
+    right: -610px;
+    top: 350px;
+    border: solid white 1px;
+    padding: 5px;
+    background-color: darkslateblue;
+    font-family: sans-serif;
+    font-size: 14px;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+}
+
+#Introduction{
+    position: inherit;
+    float: right;
+}
+
+#Introduction h2{
+    position: relative;
+    color:  #efdddd;
+    font-size: 40px;
+    float: right;
+    right: 60px;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    top: 80px;
+    left: -100px;
+}
+
+#Introduction p{
+    position: relative;
+    top: 200px;
+    float: right;
+    right: -400px;
+}
+
+#Interests{
+    position: relative;
+    height: 1000px;
+    top: -20px;
+    background: url("../images/stray.jpg") no-repeat 750px 500px,url("../images/development.jpg") no-repeat 750px 0,rgb(25,30,46);
+    background-size: 800px 500px;
+    width: 1519px;
+}
+
+#Interests p{
+    position: relative;
+    display: inline;
+    left: 70px;
+    top: 120px;
+    color: #efdddd;
+}
+
+#red_arrow{
+    width: 100px;
+    display: inline;
+    position: relative;
+    top:130px ;
+    left: 150px;
+    height: 200px;
+}
+
+#snake_game{
+    position: relative;
+    display: inline;
+    top: 150px;
+    left: 150px;
+}
+.space{
+    position: relative;
+    height: 250px;
+}
+
+#Contact{
+    position: relative;
+    top: -20px;
+    width: 1519px;
+    height: 350px;
+    background: white url("../images/bacground.jpg") no-repeat 50% 60px;
+    background-size: 40% 40%;
+}
+
+#Contact h2{
+    position: relative;
+    text-align: center;
+    color: #F06000;
+    font-family: sans-serif;
+}
+
+#Contact p{
+    color: #F06000;
+    font-family: sans-serif;
+}
+
+.Email a{
+    text-decoration: none;
+    color: black;
+}
+
+#grid{
+    position: relative;
+    top: 170px;
+    left: 500px;
+    text-align: center;
+    display: inline-grid;
+    grid-template-rows: 48px 48px;
+    grid-template-columns: 250px 230px;
+}
